@@ -1,11 +1,14 @@
 import Chart from "@/components/chart";
 import  ModeToggle  from "@/components/mode-toggle";
-import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import { CalendarIcon, GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center sm:p-24 p-2">
       <div className="w-full flex justify-end items-center gap-3">
+        <a href="https://www.cal.com/matt-quinn">
+          <CalendarIcon className="h-6 w-6" />
+        </a>
         <a href="https://www.linkedin.com/in/matthew-quinn-57b54511a/">
           <LinkedInLogoIcon className="h-6 w-6" />
         </a>
