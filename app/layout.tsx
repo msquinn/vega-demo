@@ -13,7 +13,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://vega-demo.netlify.app"),
   openGraph:{
     images: '/opengraph-image.png',
-  }
+  },
+  twitter: {
+    images: '/opengraph-image.png',
+  },
 };
 
 export default function RootLayout({
