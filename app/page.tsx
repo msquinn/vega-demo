@@ -17,7 +17,7 @@ export default function Home() {
       <div className="space-y-2 max-w-md w-full m-2 text-left">
         <div className="text-4xl font-bold text-center">Hey Anika 👋</div>
         <div className="text-2xl font-bold text-center">I heard you needed a Sankey Diagram.</div>
-        <div className="font-light italic">`Greg Bastis is making sales and he hasn&apos;t even started yet! Allow me to
+        <div className="font-light italic">Greg Bastis is making sales and he hasn&apos;t even started yet! Allow me to
         introduce myself. My name is Matt Quinn. I am a software engineer who spent the past several months
         working with Greg at Patch. As you can tell, we approach problem solving with a tenacity to find solutions. I can vouch
         that Greg is an amazing co-worker who is always willing to help and is a great team player. I am confident that he would
