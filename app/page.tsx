@@ -20,19 +20,21 @@ export default function Home() {
       <div className="space-y-2 max-w-md w-full m-2 text-left">
         <div className="text-4xl font-bold text-center">Hey Anika 👋</div>
         <div className="text-2xl font-bold text-center">I heard you needed a Sankey Diagram.</div>
-        <div className="font-light italic">Greg Bastis is making sales and he hasn&apos;t even started yet! Allow me to
-        introduce myself. My name is Matt Quinn. I am a software engineer who spent the past several months
-        working with Greg at Patch. As you can tell, we approach problem solving with a tenacity to find solutions. I can vouch
-        that Greg is an amazing co-worker who is always willing to help and is a great team player. I am confident that he would
-        be a fantastic asset to your team. Given the opportunity I would work with him in a heartbeat. If you&apos;re
-        impressed by what you see and you&apos;re in the market for a software engineer, I would love to chat with you about Omni.
+        <div className="font-light italic">Allow me to
+        introduce myself. My name is Matt Quinn. Greg Bastis and I worked together at Patch, 
+        where I was the team&apos;s frontend software engineer. Greg told me that you have a customer who needed a Sankey Diagram,
+         and I figured that I might be able to help.
         </div>
-        <div className="font-light italic">I hope you enjoy the Sankey Diagram. I look forward to hearing from you soon.</div>
+        <div className="font-light italic">Although I was unfamiliar with Vega and Vega Lite, I&apos;ve never let that stop me before. I found a reddit post linking to an example of a Sankey Diagram that I could use as a starting point. After that, it was off to the races.
+        </div>
+        <div className="font-light italic">Greg says amazing things about Omni, and it sounds like you all might be in the market for some help on the frontend before long. 
+        </div>
+        <div className="font-light italic">I&apos;d love <a className="underline text-pink-500" href="https://cal.com/matt-quinn">connect</a> and see if there&apos;s a fit - and in the meantime, hope this Sankey makes a helpful contribution to satisfying your customer requirements.</div>
         <div className="font-light italic">✌️,</div>
         <div className="font-light italic">Matt</div>
-        <div className="font-light text-xs italic">This project was built using Next.JS, React, TS, React-Vega, and was inspired by <a className="underline text-pink-600" href="https://github.com/PBI-David/Deneb-Showcase/blob/main/Sankey%20Chart/Spec.json">this example.</a></div>
       </div>
       <Chart />
+        <div className="font-light text-xs italic">This project was built using Next.JS, React, TS, React-Vega, and was inspired by <a className="underline text-pink-600" href="https://github.com/PBI-David/Deneb-Showcase/blob/main/Sankey%20Chart/Spec.json">this example.</a></div>
     </main>
   );
 }
